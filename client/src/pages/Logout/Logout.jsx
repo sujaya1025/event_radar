@@ -4,8 +4,8 @@ const LogoutButton = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    localStorage.removeItem("authToken"); // Remove token
-    navigate("/login"); // Redirect to login page
+    localStorage.removeItem("authToken"); 
+    navigate("/login"); 
   };
 
   return <button onClick={handleLogout}>Logout</button>;
