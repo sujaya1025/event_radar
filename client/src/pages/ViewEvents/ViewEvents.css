@@ -1,0 +1,28 @@
+.events-container {
+    color: white;
+    min-height: 100vh;
+    background: linear-gradient(to right, #000428, #004e92);
+    padding: 20px;
+  }
+  
+  .events-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .event-card {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+  }
+  
