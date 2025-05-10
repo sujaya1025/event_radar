@@ -1,0 +1,24 @@
+.city-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92vh; 
+  width: 100vw; 
+  background: #f8f9fa;
+}
+
+.city-card {
+  background-color: rgb(160, 124, 147);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.city-title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: bold;
+  color: #02020c;
+}
